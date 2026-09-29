@@ -42,6 +42,7 @@ Compose the layer in a box's `candy:` list:
 ```yaml
 jupyter:
   candy:
+    # the named box's value is the box BODY; `base:` and the `candy:` list are its keys
     base: fedora-nonfree
     candy:
       - '@github.com/opencharly/layer-notebook-templates:v2026.240.0201'

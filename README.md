@@ -42,7 +42,6 @@ Compose the layer in a box's `candy:` list:
 ```yaml
 jupyter:
   candy:
-    # the named box's value is the box BODY; `base:` and the `candy:` list are its keys
     base: fedora-nonfree
     candy:
       - '@github.com/opencharly/layer-notebook-templates:v2026.240.0201'
@@ -58,7 +57,7 @@ charly start jupyter
 ## Layout
 
 - `charly.yml` — the `notebook-templates:` candy entity (the `data:` mapping and
-  the `plan:` checks) plus the embedded `skill:` entity.
+  the `plan:` checks) plus the embedded `skill:` entity (the `notebook-templates-skill:` node).
 - `data/notebooks/` — the starter notebooks.
 - `README.md` — this user overview.
 

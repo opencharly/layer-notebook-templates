@@ -10,7 +10,7 @@ the marketplace corpus as `/charly-jupyter:notebook-templates`.
 Canonical files:
 
 - `charly.yml` — the `notebook-templates:` candy entity and the
-  `notebook-templates-skill:` skill entity.
+  `notebook-templates-skill:` `skill:` entity.
 - `data/notebooks/` — the starter notebooks.
 - `.github/workflows/tag-on-merge.yml` — CalVer tag + `CHANGELOG/` on merge.
 - `README.md` — user overview only; never agent guidance.
@@ -36,7 +36,7 @@ Canonical files:
 ## Modify this repo
 
 - Edit the `notebook-templates:` candy entity AND the
-  `notebook-templates-skill:` skill entity in `charly.yml` together. The skill is
+  `notebook-templates-skill:` `skill:` entity in `charly.yml` together. The skill is
   the projected usage source, so a data, path, or behaviour change not mirrored
   in the skill leaves the corpus stale.
 - This candy maps data to the volume **root** (no `dest:`); keep that consistent

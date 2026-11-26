@@ -72,7 +72,6 @@ charly start jupyter
 - `/charly-core:charly-config` -- data provisioning during `charly config` setup
 - `/charly-core:deploy` -- volume backing configuration (bind, named, encrypted)
 - `/charly-jupyter:jupyter` -- the JupyterLab candy that consumes the workspace volume
-- `/charly-jupyter:jupyter` -- the box that includes this candy
 
 ## When to Use This Skill
 

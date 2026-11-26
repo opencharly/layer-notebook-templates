@@ -65,8 +65,7 @@ charly start jupyter
 
 - Owning skill: `/charly-jupyter:notebook-templates` — the data-candy pattern and
   how starter content reaches a volume.
-- Consuming boxes: `/charly-jupyter:jupyter`, `/charly-jupyter:jupyter-ml`,
-  `/charly-jupyter:jupyter-ml-notebook`.
+- Consuming boxes: `/charly-jupyter:jupyter`, `/charly-jupyter:jupyter-ml-notebook`.
 - Sibling data layers: `/charly-jupyter:notebook-ollama`,
   `/charly-jupyter:notebook-openrouter`,
   `/charly-jupyter:notebook-llm-on-supercomputers`.

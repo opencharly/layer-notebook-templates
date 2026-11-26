@@ -61,9 +61,6 @@ charly config jupyter --bind workspace
 charly start jupyter
 ```
 
-## Used In Boxes
-
-
 ## Related Skills
 
 - `/charly-image:layer` -- data field documentation and candy authoring rules
